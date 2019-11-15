@@ -1,0 +1,23 @@
+{
+    "name": "mulo/app",
+    "description": "php devloper common use lib",
+    "license": "Apache-2.0",
+    "keywords": [
+        "mulo",
+        "罗戚洪"
+    ],
+    "require": {
+       
+    },
+    "authors": [
+        {
+            "name": "mulo",
+            "email": "0@loqh.cn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "mulo\\": "src"
+        }
+    }
+}
