@@ -5,15 +5,15 @@
  * 
  * @demo:  Test::init()->func();
  * @demo2:   Test::fuc
+ * 
  */
 
 namespace mulo\facade;
 
-class Random extends \mulo\Facade
+class Auth extends \mulo\Facade
 {
     protected static function getFacadeClass()
     {
-    	return 'mulo\Random';
+        return 'mulo\Auth';
     }
-   
 }
