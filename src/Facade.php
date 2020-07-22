@@ -16,7 +16,9 @@ class Facade
     static $initInfo;
     ## 禁止直接new
     protected function __construct()
-    { }
+    {
+        
+    }
 
     static function getInstance()
     {
